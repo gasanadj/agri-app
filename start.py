@@ -1,3 +1,5 @@
+#Import modules
+import english
 # start page which allows a user to select a language of choice
 print("Hitamo ururimi/choice of language/Lungha/choix de la langue:")
 print("1. Kinyarwanda")
@@ -13,7 +15,7 @@ language = int(input("Enter your choice (1-4): "))
 if language == 1:
     print("komeza.")
 elif language == 2:
-    print("continue.")
+    english.english()
 elif language == 3:
     print("endelea.")
 elif language == 4:

@@ -1,5 +1,6 @@
 #Import modules
 import english
+import Kiswahili
 # start page which allows a user to select a language of choice
 print("Hitamo ururimi/choice of language/Lungha/choix de la langue:")
 print("1. Kinyarwanda")
@@ -17,7 +18,7 @@ if language == 1:
 elif language == 2:
     english.english()
 elif language == 3:
-    print("endelea.")
+    Kiswahili.Kiswahili()
 elif language == 4:
     print("continuer.")
 else:

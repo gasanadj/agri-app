@@ -15,4 +15,4 @@ def sukumawiki():
     elif (taarifa == 3):
         print("Njia bora za uvunaji na uhifadhi wa sukumawiki")
         print("Kwa mimea iliyokomaa, shika shina la jani la nje lililokomaa kwenye msingi wa shina kuu na uvute chini na kutoka, mbali na katikati, hadi litakapovunjika.")
-        print("Funga majani ya sukumawiki kwenye karatasi kisha weka kwenye jokofu”)
+        print("Funga majani ya sukumawiki kwenye karatasi kisha weka kwenye jokofu")

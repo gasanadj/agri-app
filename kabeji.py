@@ -15,4 +15,4 @@ def kabeji():
     elif (taarifa == 3):
         print("Njia bora za uvunaji na uhifadhi wa kabeji")
         print("Kabeji iko tayari kuvunwa wakati vichwa vimekaza, imara, na kipenyo cha inchi 4-10. Kata shina chini ya kichwa kwa kutumia kisu mkali.")
-        print("Funga majani ya kabeji kwenye karatasi kisha weka kwenye jokofu")
+        print("Funga majani ya kabeji kwenye karatasi kisha weka kwenye jokofu")

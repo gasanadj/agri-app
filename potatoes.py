@@ -14,4 +14,3 @@ def potatoes():
     elif (info == 3):
         print("BEST HARVESTING & STORING PRACTICES")
         print("INFORMATION FOR FARMERS")
-potatoes()

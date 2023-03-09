@@ -1,4 +1,4 @@
-def Greens():
+def tea():
     print("You selected Greens")
     print("1. Best farming practices")
     print("2. Best Fertilizers & Insecticides")
@@ -10,7 +10,6 @@ def Greens():
     elif (info == 2):
         print("BEST FERTILIZERS & INSECTICIDES")
         print("INFORMATION FOR FARMER")
-    
     elif (info == 3):
         print("BEST HARVESTING & STORING PRACTICES")
         print("INFORMATION FOR FARMERS")

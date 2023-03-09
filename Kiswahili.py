@@ -1,6 +1,10 @@
 import mpunga
 import miwa
 import majanichai
+import viazi
+import maharage
+import ndizi
+import mahindi
 import mboga
 import kabeji
 import muhogo
@@ -24,6 +28,21 @@ def Kiswahili() :
             miwa.miwa()
         elif (mmea == 3) :
             majanichai.majanichai()
+    elif (mkulima == 2):
+        print("Umechagua mkulima wa kiwango cha chini")
+        print("1. viazi")
+        print("2. maharage")
+        print("3. mahindi")
+        print("4. ndizi")
+        mmea = int(input("Chagua nambari kulingana na mmea utakao: "))
+        if (mmea == 1) :
+            viazi.viazi()
+        elif (mmea == 2) :
+            maharage.maharage()
+        elif (mmea == 3) :
+            mahindi.mahindi()
+        elif (mmea == 4):
+            ndizi.ndizi()
     elif (mkulima == 3):
         print("Umechagua mkulima wa kawaida/kujikimu")
         print("1. mboga(sukumawiki)")

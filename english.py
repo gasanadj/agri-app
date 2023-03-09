@@ -1,4 +1,13 @@
 import rice
+import sugarcane
+import tea
+import potatoes
+import Beans
+import Maize
+import Banana
+import Greens
+import Cabbage
+import Cassava
 def english() :
     print("Welcome to agri-app")
     print("What type of farmer are you")
@@ -15,9 +24,10 @@ def english() :
         crop = int(input("Enter a number corresponding to the crop"))
         if (crop == 1) :
             rice.rice()
-
-
-        import potatoes    
+        elif (crop == 2):
+            sugarcane.sugarcane()
+        elif(crop == 3):
+            tea.tea()
     elif (farmer == 2) :
         print("You selected Small Scale Farmer")
         print("GENERAL TIPS FOR SMALL SCALE FARMING")
@@ -30,8 +40,12 @@ def english() :
         crop = int(input("Enter a number corresponding to the crop"))
         if (crop == 1):
             potatoes.potatoes()
-
-        import 
+        elif (crop == 2):
+            Beans.beans()
+        elif (crop == 3):
+            Maize.maize()
+        elif (crop == 3):
+            Banana.banana() 
     elif (farmer == 3):
         print("You selected Subsitence farming")
         print("GENERAL TIPS FOR SMALL SCALE FARMING")
@@ -42,4 +56,8 @@ def english() :
         print("3. Cassava")
         crop = int(input("Enter a number corresponding to the crop"))
         if (crop == 1):
-            greens.green()
+            Greens.Greens()
+        elif (crop == 2):
+            Cabbage.cabbage()
+        elif (crop ==3):
+            Cassava.cassava()
